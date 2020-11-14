@@ -1,0 +1,96 @@
+        body {
+            background-color: #15202B;
+            color: white;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            font-size: 30pt;
+        }
+        
+        nav#menu {
+            display: block;
+            font-size: 15pt;
+        }
+        
+        nav#menu ul {
+            list-style: none;
+            text-transform: uppercase;
+            position: absolute;
+            top: -9px;
+            left: 320px;
+        }
+        
+        nav#menu li {
+            display: inline-block;
+            background-color: #192734;
+            padding: 10px;
+        }
+        
+        nav#menu h1 {
+            display: none;
+        }
+        
+        nav#menu a {
+            color: white;
+        }
+        
+        img {
+            box-shadow: 5px 5px 7px black;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cabeçalho {
+            padding-top: 80px;
+            box-shadow: 1px 1px 10px black;
+            background-color: rgb(25, 96, 142);
+            max-width: 950px;
+            min-width: 350px;
+            height: 100px;
+            margin: auto;
+            border-radius: 10px;
+        }
+        
+        .conteúdo {
+            font-size: 18pt;
+            padding: 25px;
+            background-color: #192734;
+            box-shadow: 1px 1px 10px black;
+            max-width: 900px;
+            min-width: 250px;
+            margin: auto;
+            margin-top: 25px;
+            border-radius: 10px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        hr {
+            border-color: rgb(25, 96, 142);
+            height: 0, 1px;
+        }
+        
+        .titulos {
+            color: rgb(51, 122, 170);
+        }
+        
+        div.conteúdo a {
+            color: rgb(57, 167, 157);
+        }
+        
+        footer#rodape {
+            clear: both;
+        }
+        
+        footer#rodape p {
+            text-align: center;
+        }
