@@ -19,7 +19,7 @@
             text-transform: uppercase;
             position: absolute;
             top: -9px;
-            left: 320px;
+            left: auto;
         }
         
         nav#menu li {
@@ -93,4 +93,20 @@
         
         footer#rodape p {
             text-align: center;
+        }
+        
+        .infor_conteudo {
+            font-size: 18pt;
+            padding: 25px;
+            background-image: linear-gradient( 800deg, #192734, #03387E, #114b92, #1e5f9c);
+            box-shadow: 1px 1px 10px black;
+            max-width: 900px;
+            min-width: 250px;
+            margin: auto;
+            margin-top: 25px;
+            border-radius: 10px;
+        }
+        
+        div.infor_conteudo a {
+            color: rgb(84, 128, 194);
         }
