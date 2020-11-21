@@ -6,6 +6,24 @@
     <title>Filmes e Séries</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="shortcut icon" href="Favicons/Filmes.ico" type="image/x-icon">
+    <style>
+        table, td, th{
+            border: 1px solid black;
+            margin: auto;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+        }
+        tbody > tr:nth-child(even){
+            background-color: gray;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgb(49, 173, 49);
+        }
+        th{
+            background-color: gray;
+        }
+    </style>
 </head>
 
 <body>
@@ -37,7 +55,7 @@
     </div>
 
 
-    <div class="conteúdo" style="min-height: 3500px; max-height: 8000px;">
+    <div class="conteúdo" style="min-height: 3500px; max-height: 10000px;">
 
         <p>Traz a pipoca que o filme já vai começar!!</p>
         <hr>
@@ -121,6 +139,47 @@
                 cientistas da S.T.A.R. Labs. Ao mesmo tempo que detém vilões, ele procura descobrir quem está por trás do assassino de sua mãe.
             </li>
         </ul>
+        <p>Top 5, filmes com as maiores bilheterias de todos os tempos.</p>
+        <table>
+            <caption>Top 5 das maiores bilheterias</caption>
+            <thead>
+                <tr>
+                    <th>Lugar</th>
+                    <th>Filme</th>
+                    <th>Arrecadação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1º</td>
+                    <td>Vingadores Ultimato</td>
+                    <td>US$ 2,797 bilhões</td>
+                </tr>             
+                <tr>
+                    <td>2º</td>
+                    <td>Avatar</td> 
+                    <td>US$ 2,789 bilhões</td>  
+                </tr>
+                <tr>
+                    <td>3º</td>
+                    <td>Titanic</td> 
+                    <td>US$ 2,187 bilhões</td> 
+                </tr>
+                <tr>
+                    <td>4º</td>
+                    <td>Star Wars<br>
+                    O despertar da força
+                    </td> 
+                    <td>US$ 2,068 bilhões</td> 
+                </tr>
+                <tr>
+                    <td>5º</td>
+                    <td>Vingadores Guerra Infinita</td> 
+                    <td>US$ 2,048 bilhões</td> 
+                </tr>
+            </tbody>
+        </table>
+        <p><a href="Filmes_e_Series.html" style="color: rgb(180, 7, 180); font-size: 15pt;" >Voltar ao início</a></p>
     </div>
 
     <footer id="rodape">
