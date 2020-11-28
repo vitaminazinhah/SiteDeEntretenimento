@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="Favicons/paginaInicial.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo-geral.css" media="all">
+    <link rel="stylesheet" href="small-screen.css" media="screen and (max-width:600px;)">
+    <link rel="stylesheet" href="phone.css" media="screen and (min-width:600px) and (max-width: 768px;) ">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width:768px;) and (max-width:992px;)">
+    <link rel="stylesheet" href="pc.css" media="screen and (min-width:992px;) and (max-width:1200px;)">
+    <link rel="stylesheet" href="tv.css" media="screen and (min-width:1200px;) ">
+    <link rel="stylesheet" href="print-portrait.css" media="print and (orientation: portrait) ">
+    <link rel="stylesheet" href="print-landscape.css" media="print and (orientation: landscape) ">
+
+
+</head>
+
+<body>
+    <div class="cabeçalho">
+        <header>
+
+            <nav id="menu">
+                <h1>Menu de Navegação</h1>
+                <ul>
+                    <li>
+                        <a href="index.html"> Inicio</a>
+                    </li>
+                    <li>
+                        <a href="AtividadesFisicas.html"> Atividades Fisicas</a>
+                    </li>
+                    <li>
+                        <a href="Livros.html"> Livros</a>
+                    </li>
+                    <li>
+                        <a href="Animes.html"> Animes</a>
+                    </li>
+                    <li>
+                        <a href="Filmes_e_Series.html"> Filmes e Series</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html"> Informações</a>
+                    </li>
+                </ul>
+            </nav>
+            Formulário
+        </header>
+    </div>
+
+
+    <div class="conteúdo" style="min-height:600px; max-height:2000px;">
+
+        <form action="post">
+            <fieldset>
+                <legend>
+                    <h1>Oque você achou do site?</h1>
+                </legend>
+                <p>
+                    <label for="nome"> Qual o seu nome:</label>
+                    <input type="text" name="fnome " id="nome">
+                </p>
+                <p>
+                    <label for="idade"> Qual a sua idade:</label>
+                    <input type="number" name="fidade" id="idade">
+                </p>
+
+                <p>
+                    <fieldset style=" width: fit-content; ">
+                        <legend>Experiência:</legend>
+                        <label for="otima">Otíma</label>
+                        <input type="radio" name="op" id="otima">
+                        <label for="boa">Boa</label>
+                        <input type="radio" name="op" id="boa">
+                        <label for="ruim"> Ruim</label>
+                        <input type="radio" name="op" id="ruim">
+                        <label for="pess">Pessíma</label>
+                        <input type="radio" name="op" id="pess">
+                    </fieldset>
+                </p>
+
+                <p>
+                    <label for="data">Em qual data você preencheu esse formulário?</label>
+                    <input type="date" name="fdata" id="data">
+
+                </p>
+
+
+                <p>
+                    <label for="uti"> O site foi útil para você</label>
+                    <select name="futi" id="uti">
+                        <option value=""> Sejá sincero!</option>
+                        <optgroup>
+                          <option value="S">Sim</option>
+                          <option value="N">Não</option>
+                        </optgroup>      
+                    </select>
+                </p>
+
+                <p>
+                    <label for="desc">Surgestão de mudanças ou melhoramentos:</label>
+                    <br>
+                    <textarea name="idescri" id="desc" cols="30" rows="10"></textarea>
+
+                </p>
+
+                <p>
+                    <label for="satisfacao">Nivel de Satisfação</label> <input type="range" name="fsat" id="satisfacao">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+
+                </p>
+
+            </fieldset>
+
+        </form>
+
+
+    </div>
+
+
+    <footer id="rodape">
+        <p>Copyright &copy; 2020 - by Emily Rocha, Emesson Horácio, Sidney, Carina e Isabely</p>
+
+
+
+    </footer>
+</body>
+
+</html>
