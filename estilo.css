@@ -8,6 +8,12 @@
             color: white;
             font-size: 30pt;
         }
+
+        h1.tituloDaPagina{
+            text-align: center;
+            padding-top: 50px;
+            font-size: 30pt;
+        }
         
         nav#menu {
             display: block;
@@ -28,10 +34,6 @@
             padding: 10px;
         }
         
-        nav#menu h1 {
-            display: none;
-        }
-        
         nav#menu a {
             color: white;
         }
@@ -49,7 +51,7 @@
             background-color: rgb(25, 96, 142);
             max-width: 950px;
             min-width: 350px;
-            height: 100px;
+            height: 230px;
             margin: auto;
             border-radius: 10px;
         }
