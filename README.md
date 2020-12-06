@@ -65,7 +65,33 @@ Foi criado a página formulario.html
 
     Modificação: Foi adiocinado medias queries nestas páginas
 
+---
 
+
+#**Modificações [Entrega 6]**
+
+ Foi criado o arquivo validacao.js.
+
+##**Modificações realizadas nos arquivos existentes**
+
+1.  arquivos: index.html, Animes.html, AtividadesFisicas.html, Filmes_e_Series.html, sobre.html e formulario.html
+
+    Modificação: modificações de medias queries. 
+
+2. arquivo: formulario.html
+
+    Modificação: 
+         1. Foi adicionado a tag <\script>.
+         2. Foi adicionado um atributo id na tag <\input> do tipo submit.
+         3. Foi adicionado também o evento "onclik".   
+         4. O atribito "action" da tag <\form> foi excluido.
+         5. Foi adicionado um "checked" no input com id #otima
+
+3. arquivo: validação.js
+
+    Modificação:
+        1. Adicionamento de campos nome e data obrigatorios.
+        2. Adicionamento de alertas.
 
 
 ##**Integrantes da Equipe**
