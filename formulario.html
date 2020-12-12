@@ -52,7 +52,7 @@
 
     <div class="conteúdo" style="min-height:600px; max-height:2000px;">
 
-        <form action="post">
+        <form>
             <fieldset>
                 <legend>
                     <h1>Oque você achou do site?</h1>
@@ -69,8 +69,8 @@
                 <p>
                     <fieldset style=" width: fit-content; ">
                         <legend>Experiência:</legend>
-                        <label for="otima">Otíma</label>
-                        <input type="radio" name="op" id="otima">
+                        <label for="otima">Ótima</label>
+                        <input type="radio" name="op" id="otima" checked>
                         <label for="boa">Boa</label>
                         <input type="radio" name="op" id="boa">
                         <label for="ruim"> Ruim</label>
@@ -109,7 +109,7 @@
                     <label for="satisfacao">Nivel de Satisfação</label> <input type="range" name="fsat" id="satisfacao">
                 </p>
                 <p>
-                    <input type="submit" value="Enviar">
+                    <input onclick="validacao()" id="enviar" type="submit" value="Enviar">
                     <input type="reset" value="Limpar">
 
                 </p>
@@ -120,6 +120,7 @@
 
 
     </div>
+    <script src="validacao.js"></script>
 
 
     <footer id="rodape">
